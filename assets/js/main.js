@@ -98,6 +98,8 @@ let celsius = fahrenheit.map((item) => {
     return (item - 32) / 1.8
 
 })
+
+
 let roundedC = Math.floor(celsius)
 console.log(roundedC)
 /* ℃ =℉ - 32 ______  1.8000 */
